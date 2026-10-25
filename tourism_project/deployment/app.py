@@ -30,7 +30,7 @@ PitchSatisfactionScore = st.number_input("Pitch Satisfaction Score", min_value=1
 OwnCar    = st.selectbox("Owned car", ["0", "1"])
 NumberOfChildrenVisiting = st.number_input("Number Of Children Visiting", min_value=0, max_value=5, value=0, step=1)
 Designation    = st.selectbox("Designation", ["Manager", "Executive", "Senior Manager", "AVP", "VP"])
-MonthlyIncome = st.number_input("Monthly Income", min_value=0.0, value=0.0, step=1)
+MonthlyIncome = st.number_input("Monthly Income", min_value=0.0, value=0.0, step=1.0)
 
 
 input_data = pd.DataFrame([{
